@@ -3,7 +3,7 @@ This is a python simulation of the Schellings Segregation model that I created f
 
 ## Usage
 
-The simulation can be ran in one of two modes, "animation", which creates an animation of the progression of the model board over time for a given threshold parameter,
+The simulation can be ran in one of two modes, "animate", which creates an animation of the progression of the model board over time for a given threshold parameter,
 and "plot", which creates a plot of mean satisfaction ratios in the long term for different threshold parameters.
 
 run the file with the command:
@@ -12,13 +12,13 @@ run the file with the command:
 python Schellings.py mode e q p
 ```
 
-Where mode is one of "animation" or "plot", e is the number of empty cells in the simulation, q is the fraction of cells that are of group 1, and p, which is to only be specified
-if the mode is "animation" is the satisfaction threshold parameter for the model.
+Where mode is one of "animate" or "plot", e is the number of empty cells in the simulation, q is the fraction of cells that are of group 1, and p, which is to only be specified
+if the mode is "animate" is the satisfaction threshold parameter for the model.
 
 Sample usages:
 
 ```
-python Schellings.py animation 250 0.6 0.5
+python Schellings.py animate 250 0.6 0.5
 python Schellings.py plot 300 0.75
 ```
 

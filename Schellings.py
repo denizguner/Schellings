@@ -142,7 +142,7 @@ class Board(object):
             else:
                 noChangeCounter = 0
 
-            if noChangeCounter == 1000:
+            if noChangeCounter == 100:
                 break
         return self._calculateMeanSatisfaction()
     
